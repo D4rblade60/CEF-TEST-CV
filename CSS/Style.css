@@ -12,21 +12,19 @@
 }
 
 h1{
-    width: 200px;
+    width: 340px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Lato';
-    font-size: 2rem;
+    font-size: 40px;
 }
 
-h2{
-    width: 170px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+.job{
+    width: 200px;
     font-family: 'Lato';
-    font-size: 1rem;
-
+    font-size: 1rem;  
+    margin-left: auto;
+    margin-right: auto;     
 }
 
 address{
@@ -50,16 +48,16 @@ a:hover{
 }
 
 #location{
-    width: 180px;
+    width: 187px;
 }
 
 #email{
-    width: 180px;
+    width: 187px;
     text-align: center;
 }
 
 #phone{
-    width: 180px;
+    width: 187px;
     text-align: right;
 }
 
@@ -90,7 +88,8 @@ section{
 }
 
 div{
-    flex-basis: 50%;
+    padding-top: 5px;
+    flex-basis: 40%;
 }
 
 .div{
@@ -98,6 +97,7 @@ div{
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: #dbc2a4;
+    font-size: 1.2rem;
 }
 
 #div{
@@ -126,6 +126,7 @@ div{
     padding-bottom: 5px;
     padding-top: 5px;
     border-left: 7px solid #782221;
+    background-color: #dbc2a4;
 }
 
 .div2:hover{
@@ -135,43 +136,43 @@ div{
 /*Footer*/
 
 #networks{
-    width: 150px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
 }
 
-#linkedin{
+#Linkedin{
     height: 40px;
     width: 40px;
 }
 
-#linkedin:hover{
+#Linkedin:hover{
     opacity: 0.7;
 }
 
-#github{
+#Github{
     height: 40px;
     width: 40px;
     padding-left: 10px;
 }
 
-#github:hover{
+#Github:hover{
     opacity: 0.7;
 }
 
-#twitter{
+#Twitter{
     height: 40px;
     width: 40px;
     padding-left: 10px;
 }
 
-#twitter:hover{
+#Twitter:hover{
     opacity: 0.7;
 }
 
 #date{
-    width: 250px;
+    width: 300px;
     margin-right: auto;
     margin-left: auto;
 }
